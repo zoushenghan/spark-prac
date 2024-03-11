@@ -1,4 +1,4 @@
-package com.zoush.sparkd.core
+package com.zoush
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
@@ -9,7 +9,7 @@ import scala.util.control.Breaks
 /**
   * @Author: zoushenghan
   * @Date: 20224/3/11 13:12
-  * @Description: ${description}
+  * @Description: 汇丰测试
   */
 
 object TestHF {
@@ -51,13 +51,13 @@ object TestHF {
 		)
 
 		//直接在此测试第 1 题
-		test1(data)
+		//test1(data)
 
 		//直接在此测试第 2 题
 		//test2(sc, data)
 
 		//直接在此测试第 3 题
-		//test3(sc, data3, 7)
+		test3(sc, data2, 7)
 
 		sc.stop()
 	}
